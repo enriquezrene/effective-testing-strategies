@@ -12,7 +12,6 @@ test('Return any product from the list when RECOMMEND ME is executed', () => {
 })
 
 
-
 function recommendMe() {
   return {
     id: 1,
