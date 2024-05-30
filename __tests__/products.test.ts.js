@@ -11,6 +11,11 @@ test('Return any product from the list when RECOMMEND ME is executed', () => {
   })
 })
 
-function recommendMe() {
 
+
+function recommendMe() {
+  return {
+    id: 1,
+    name: 'something'
+  }
 }
