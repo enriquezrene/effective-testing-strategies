@@ -35,6 +35,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="1.4-introducing-a-new-test-case" />
+                    <option name="lastUsedInstant" value="1717170092" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="1.3-refactor-a-little-bit" />
                     <option name="lastUsedInstant" value="1717169847" />
                   </RecentBranch>
@@ -49,10 +53,6 @@
                   <RecentBranch>
                     <option name="branchName" value="1.1-introducing-broken-test" />
                     <option name="lastUsedInstant" value="1717169232" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="1.1-write-a-test" />
-                    <option name="lastUsedInstant" value="1717109963" />
                   </RecentBranch>
                 </list>
               </option>
