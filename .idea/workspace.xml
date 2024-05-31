@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -34,6 +35,14 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="1.1-introducing-a-broken-test" />
+                    <option name="lastUsedInstant" value="1717169495" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="1.1-introducing-broken-test" />
+                    <option name="lastUsedInstant" value="1717169232" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="1.2-make-it-green" />
                     <option name="lastUsedInstant" value="1717110078" />
                   </RecentBranch>
@@ -44,10 +53,6 @@
                   <RecentBranch>
                     <option name="branchName" value="1-find-a-product" />
                     <option name="lastUsedInstant" value="1717109487" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1717109486" />
                   </RecentBranch>
                 </list>
               </option>
@@ -78,7 +83,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Return any product from the list when RECOMMEND ME is executed (1)">
+  <component name="RunManager" selected="Jest.When recommendMe is executed, it returns a gadget">
     <configuration name="Return any product from the list when RECOMMEND ME is executed (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
       <node-options value="" />
@@ -118,6 +123,19 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="When recommendMe is executed, it returns a gadget" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/products.test.ts" />
+      <test-names>
+        <test-name value="When recommendMe is executed, it returns a gadget" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="products.test.ts.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
       <node-options value="" />
@@ -130,6 +148,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.When recommendMe is executed, it returns a gadget" />
         <item itemvalue="Jest.Return any product from the list when RECOMMEND ME is executed (1)" />
         <item itemvalue="Jest.When RECOMMEND ME is executed, it get a list of products" />
         <item itemvalue="Jest.products.test.ts.js" />
@@ -151,17 +170,5 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/__tests__/products.test.ts</url>
-          <line>31</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
