@@ -1,11 +1,4 @@
-class ProductService {
-  recommendMe() {
-    return {
-      id: 1,
-      name: 'iPad'
-    }
-  }
-}
+import { ProductService } from '../product-service';
 
 it('When recommendMe is executed, it returns a gadget', ()=>{
   const recommendedGadget = new ProductService().recommendMe()
