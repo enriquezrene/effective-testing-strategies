@@ -1,9 +1,5 @@
 export class ProductService {
 
-  getAvailableProducts() {
-    return []
-  }
-
   recommendMe() {
     this.getAvailableProducts()
     return {
@@ -11,4 +7,9 @@ export class ProductService {
       name: 'iPad'
     }
   }
+  getAvailableProducts() {
+    return []
+  }
+
+
 }
