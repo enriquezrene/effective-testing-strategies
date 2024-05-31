@@ -35,16 +35,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="1.2-make-it-green" />
+                    <option name="lastUsedInstant" value="1717169774" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="1.1-introducing-a-broken-test" />
                     <option name="lastUsedInstant" value="1717169495" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="1.1-introducing-broken-test" />
                     <option name="lastUsedInstant" value="1717169232" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="1.2-make-it-green" />
-                    <option name="lastUsedInstant" value="1717110078" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="1.1-write-a-test" />
@@ -83,7 +83,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.When recommendMe is executed, it returns a gadget">
+  <component name="RunManager" selected="Jest.products.test.ts">
     <configuration name="Return any product from the list when RECOMMEND ME is executed (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
       <node-options value="" />
@@ -92,19 +92,6 @@
       <envs />
       <scope-kind value="TEST" />
       <test-file value="$PROJECT_DIR$/__tests__/products.test.ts" />
-      <test-names>
-        <test-name value="Return any product from the list when RECOMMEND ME is executed" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Return any product from the list when RECOMMEND ME is executed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__tests__/products.test.ts.js" />
       <test-names>
         <test-name value="Return any product from the list when RECOMMEND ME is executed" />
       </test-names>
@@ -136,6 +123,16 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="products.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/__tests__/products.test.ts" />
+      <method v="2" />
+    </configuration>
     <configuration name="products.test.ts.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
       <node-options value="" />
@@ -148,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.products.test.ts" />
         <item itemvalue="Jest.When recommendMe is executed, it returns a gadget" />
         <item itemvalue="Jest.Return any product from the list when RECOMMEND ME is executed (1)" />
         <item itemvalue="Jest.When RECOMMEND ME is executed, it get a list of products" />
         <item itemvalue="Jest.products.test.ts.js" />
-        <item itemvalue="Jest.Return any product from the list when RECOMMEND ME is executed" />
       </list>
     </recent_temporary>
   </component>
