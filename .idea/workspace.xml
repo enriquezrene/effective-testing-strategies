@@ -35,6 +35,14 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="1.10-testing-random-product" />
+                    <option name="lastUsedInstant" value="1717531700" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="1.10-return-a-random-product" />
+                    <option name="lastUsedInstant" value="1717531645" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="1.9-introducing-mocks" />
                     <option name="lastUsedInstant" value="1717527613" />
                   </RecentBranch>
@@ -45,14 +53,6 @@
                   <RecentBranch>
                     <option name="branchName" value="1.7-introducing-suites" />
                     <option name="lastUsedInstant" value="1717181139" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="1.6-make-spies-test-pass" />
-                    <option name="lastUsedInstant" value="1717170537" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="1.5-introducing-spies" />
-                    <option name="lastUsedInstant" value="1717170320" />
                   </RecentBranch>
                 </list>
               </option>
@@ -86,7 +86,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.When recommend me is executed">
+  <component name="RunManager" selected="Jest.When recommend me is executed.the recommended gadget is an element from the array of available products">
     <configuration name="When recommend me is executed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
       <node-options value="" />
@@ -114,21 +114,8 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="When recommendMe is executed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="When recommend me is executed.the gadget is part of the list of available products" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/__tests__/products.test.ts" />
-      <test-names>
-        <test-name value="When recommendMe is executed" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="When recommendMe is executed.it returns a gadget" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
@@ -136,8 +123,22 @@
       <scope-kind value="TEST" />
       <test-file value="$PROJECT_DIR$/src/__tests__/products.test.ts" />
       <test-names>
-        <test-name value="When recommendMe is executed" />
-        <test-name value="it returns a gadget" />
+        <test-name value="When recommend me is executed" />
+        <test-name value="the gadget is part of the list of available products" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="When recommend me is executed.the recommended gadget is an element from the array of available products" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/products.test.ts" />
+      <test-names>
+        <test-name value="When recommend me is executed" />
+        <test-name value="the recommended gadget is an element from the array of available products" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.When recommend me is executed.the recommended gadget is an element from the array of available products" />
+        <item itemvalue="Jest.When recommend me is executed.the gadget is part of the list of available products" />
         <item itemvalue="Jest.When recommend me is executed" />
         <item itemvalue="Jest.When recommend me is executed.it returns a gadget" />
         <item itemvalue="Jest.products.test.ts (1)" />
-        <item itemvalue="Jest.When recommendMe is executed" />
-        <item itemvalue="Jest.When recommendMe is executed.it returns a gadget" />
       </list>
     </recent_temporary>
   </component>
@@ -172,11 +173,23 @@
       <workItem from="1717104652815" duration="4683000" />
       <workItem from="1717192813541" duration="508000" />
       <workItem from="1717449285075" duration="4500000" />
-      <workItem from="1717527017387" duration="1975000" />
+      <workItem from="1717527017387" duration="2670000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/__tests__/products.test.ts</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

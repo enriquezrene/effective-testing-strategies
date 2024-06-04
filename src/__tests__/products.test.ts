@@ -3,17 +3,22 @@ import { Gadget, ProductService } from '../product-service';
 describe('When recommend me is executed', () => {
 
   const findAvailableProductsFunction = jest.spyOn(ProductService.prototype, 'getAvailableProducts')
-  findAvailableProductsFunction.mockImplementation(() => Promise.resolve([{
+  const availableProducts: Gadget[] = [{
     id: '1',
     name: 'Apple iPad'
   }, {
     id: '2',
     name: 'Google Pixel'
-  }]))
+  }]
+  findAvailableProductsFunction.mockImplementation(() => Promise.resolve(availableProducts))
   let recommendedGadget: Gadget
 
   beforeAll(async () => {
     recommendedGadget = await new ProductService().recommendMe()
+  })
+
+  it('the recommended gadget is an element from the array of available products', () => {
+    expect(availableProducts.includes(recommendedGadget)).toBe(true)
   })
 
   it('it returns a gadget', () => {
