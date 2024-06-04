@@ -1,15 +1,19 @@
+import axios from 'axios';
+
 export class ProductService {
 
-  recommendMe() {
-    this.getAvailableProducts()
+  async recommendMe() {
+    const products = await this.getAvailableProducts()
+    // return a random product here
     return {
       id: 1,
       name: 'iPad'
     }
   }
-  getAvailableProducts() {
-    return []
+  async getAvailableProducts() {
+    const products = await axios.get(`https://api.restful-api.dev/objects`)
+    console.log(products.data)
+    return products.data
   }
-
 
 }

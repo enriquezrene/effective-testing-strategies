@@ -3,7 +3,11 @@ import { ProductService } from '../product-service';
 describe('When recommend me is executed', () => {
 
   const findAvailableProductsFunction = jest.spyOn(ProductService.prototype, 'getAvailableProducts')
-  const recommendedGadget = new ProductService().recommendMe()
+  let recommendedGadget: any
+
+  beforeAll(async () => {
+    recommendedGadget = await new ProductService().recommendMe()
+  })
 
   it('it returns a gadget', () => {
     expect(recommendedGadget).toEqual({

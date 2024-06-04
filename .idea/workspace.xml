@@ -35,6 +35,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="1.8-adding-async-interaction" />
+                    <option name="lastUsedInstant" value="1717449445" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="1.7-introducing-suites" />
                     <option name="lastUsedInstant" value="1717181139" />
                   </RecentBranch>
@@ -49,10 +53,6 @@
                   <RecentBranch>
                     <option name="branchName" value="1.4-introducing-a-new-test-case" />
                     <option name="lastUsedInstant" value="1717170092" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="1.3-refactor-a-little-bit" />
-                    <option name="lastUsedInstant" value="1717169847" />
                   </RecentBranch>
                 </list>
               </option>
@@ -86,7 +86,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.products.test.ts (1)">
+  <component name="RunManager" selected="Jest.When recommend me is executed.it returns a gadget">
     <configuration name="When recommend me is executed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
       <node-options value="" />
@@ -100,6 +100,20 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="When recommend me is executed.it returns a gadget" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/products.test.ts" />
+      <test-names>
+        <test-name value="When recommend me is executed" />
+        <test-name value="it returns a gadget" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="When recommendMe is executed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
       <node-options value="" />
@@ -110,19 +124,6 @@
       <test-file value="$PROJECT_DIR$/src/__tests__/products.test.ts" />
       <test-names>
         <test-name value="When recommendMe is executed" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="When recommendMe is executed, it gets a list of all the available products" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/__tests__/products.test.ts" />
-      <test-names>
-        <test-name value="When recommendMe is executed, it gets a list of all the available products" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.products.test.ts (1)" />
+        <item itemvalue="Jest.When recommend me is executed.it returns a gadget" />
         <item itemvalue="Jest.When recommend me is executed" />
+        <item itemvalue="Jest.products.test.ts (1)" />
         <item itemvalue="Jest.When recommendMe is executed" />
         <item itemvalue="Jest.When recommendMe is executed.it returns a gadget" />
-        <item itemvalue="Jest.When recommendMe is executed, it gets a list of all the available products" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +170,9 @@
       <option name="presentableId" value="Default" />
       <updated>1717104648967</updated>
       <workItem from="1717104652815" duration="4683000" />
+      <workItem from="1717192813541" duration="508000" />
+      <workItem from="1717449285075" duration="4500000" />
+      <workItem from="1717527017387" duration="417000" />
     </task>
     <servers />
   </component>
