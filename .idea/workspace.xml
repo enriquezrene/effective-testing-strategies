@@ -35,6 +35,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="1.9-introducing-mocks" />
+                    <option name="lastUsedInstant" value="1717527613" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="1.8-adding-async-interaction" />
                     <option name="lastUsedInstant" value="1717449445" />
                   </RecentBranch>
@@ -49,10 +53,6 @@
                   <RecentBranch>
                     <option name="branchName" value="1.5-introducing-spies" />
                     <option name="lastUsedInstant" value="1717170320" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="1.4-introducing-a-new-test-case" />
-                    <option name="lastUsedInstant" value="1717170092" />
                   </RecentBranch>
                 </list>
               </option>
@@ -86,7 +86,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.When recommend me is executed.it returns a gadget">
+  <component name="RunManager" selected="Jest.When recommend me is executed">
     <configuration name="When recommend me is executed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="$USER_HOME$/.nvm/versions/node/v18.15.0/bin/node" />
       <node-options value="" />
@@ -153,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.When recommend me is executed.it returns a gadget" />
         <item itemvalue="Jest.When recommend me is executed" />
+        <item itemvalue="Jest.When recommend me is executed.it returns a gadget" />
         <item itemvalue="Jest.products.test.ts (1)" />
         <item itemvalue="Jest.When recommendMe is executed" />
         <item itemvalue="Jest.When recommendMe is executed.it returns a gadget" />
@@ -172,7 +172,7 @@
       <workItem from="1717104652815" duration="4683000" />
       <workItem from="1717192813541" duration="508000" />
       <workItem from="1717449285075" duration="4500000" />
-      <workItem from="1717527017387" duration="417000" />
+      <workItem from="1717527017387" duration="1975000" />
     </task>
     <servers />
   </component>
