@@ -12,7 +12,7 @@ describe('When recommend me is executed', () => {
   }]))
   let recommendedGadget: Gadget
 
-  beforeAll(async () => {
+  beforeEach(async () => {
     recommendedGadget = await new ProductService().recommendMe()
   })
 
