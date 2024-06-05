@@ -4,8 +4,12 @@ export class ProductService {
 
   async recommendMe(): Promise<Gadget> {
     const products = await this.getAvailableProducts()
-    const randomIndex = Math.floor(Math.random() * (products.length - 1)) ;
-    return products[randomIndex]
+    // const randomIndex = Math.floor(Math.random() * (products.length - 1)) ;
+    // return products[randomIndex]
+    return {
+      id: '1',
+      name: 'iPad'
+    }
   }
 
   async getAvailableProducts(): Promise<Gadget[]> {
