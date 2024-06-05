@@ -13,7 +13,7 @@ describe('When recommend me is executed', () => {
   findAvailableProductsFunction.mockImplementation(() => Promise.resolve(availableProducts))
   let recommendedGadget: Gadget
 
-  beforeAll(async () => {
+  beforeEach(async () => {
     recommendedGadget = await new ProductService().recommendMe()
   })
 
