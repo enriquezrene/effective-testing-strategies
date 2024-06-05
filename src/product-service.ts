@@ -6,7 +6,7 @@ export class ProductService {
     const products = await this.getAvailableProducts()
     // return a random product here
     return {
-      id: 1,
+      id: '1',
       name: 'iPad'
     }
   }

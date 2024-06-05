@@ -5,13 +5,13 @@ describe('When recommend me is executed', () => {
   const findAvailableProductsFunction = jest.spyOn(ProductService.prototype, 'getAvailableProducts')
   let recommendedGadget: any
 
-  beforeAll(async () => {
+  beforeEach(async () => {
     recommendedGadget = await new ProductService().recommendMe()
   })
 
   it('it returns a gadget', () => {
     expect(recommendedGadget).toEqual({
-      id: expect.any(Number),
+      id: expect.any(String),
       name: expect.any(String)
     })
   })
